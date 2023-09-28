@@ -10,8 +10,8 @@ function App() {
             <img src='Donut.png' className='navbar-brand___logo' />
             <a href='mailto:costantinimarcelo314@gmail.com'>Trabajá en MarcDonuts</a>
             <a href='index.html'>Productos</a>
-            <a>Sobre Nosotros</a>
-            <a>Inicio</a>
+            <a href='https://marcdonuts.netlify.app/marcdonuts'>Sobre Nosotros</a>
+            <a href='https://marcdonuts.netlify.app/'>Inicio</a>
           </nav>
         </div>
       </header>
