@@ -1,3 +1,4 @@
+import Productos from './componentes/Productos';
 import './App.css';
 
 function App() {
@@ -17,7 +18,18 @@ function App() {
     
       <h1>Productos</h1>
       <div className='flex-container'>
-
+        <Productos
+          url='Oreo-Cake'
+          nombre='Oreo'
+          precio='420'/>
+        <Productos
+          url='representacion-3d-dona-chocolate_250435-1211'
+          nombre='Chocolate'
+          precio='600'/>
+        <Productos
+          url='giant-donut'
+          nombre='Rosa'
+          precio='450'/>
       </div>
 
       <form>
